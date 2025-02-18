@@ -1,0 +1,6 @@
+n = input()
+m = input()
+x = float(input())
+y = float(input())
+z = float(input())
+print(n, m, round(x+y+z, 1))
