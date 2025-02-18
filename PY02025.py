@@ -1,0 +1,8 @@
+n, m = map(int, input().split())
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+A = set(a)
+B = set(b)
+print(*sorted(A.intersection(B)))
+print(*sorted(A.difference(B)))
+print(*sorted(B.difference(A)))
